@@ -32,7 +32,7 @@ Foxtrick.modules['RapidId'] = {
 			{ value: 'match-tournament', text: 'Match',
 				url: 'Club/Matches/Match.aspx?matchID=%n&SourceSystem=HTOIntegrated' },
 			{ value: 'series-tournament', text: 'RapidId.tournament',
-				url: 'Community/Tournaments/Tournament.aspx?tournamentId=%n' },
+				url: 'Club/ArenaHub/Tournaments/Tournament.aspx?tournamentId=%n' },
 			{ value: 'match-single', text: 'RapidId.SingleMatch',
 				url: 'Club/Matches/Match.aspx?matchID=%n&SourceSystem=HTOIntegrated' },
 			{ value: 'match-ladder', text: 'RapidId.LadderMatch',

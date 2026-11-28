@@ -29,7 +29,7 @@ if (!this.Foxtrick)
 /* eslint-disable key-spacing, quote-props */
 Foxtrick.htPages = {
 	// following are mainly used for information gathering. keep on top
-	'teamPageAny'               : '/Club/|/World/Series/|/Community/Tournaments/',
+	'teamPageAny'               : '/Club/|/World/Series/',
 
 	'all'                       : '.*',
 	'dashboard'                 : '/MyHattrick/Dashboard.aspx',
@@ -185,16 +185,16 @@ Foxtrick.htPages = {
 	'search'                    : '/Search/(Default.aspx|?|$)',
 	'playerStats'               : '/Club/Players/PlayerStats.aspx',
 	'topScorers'                : '/World/Series/TopScorers.aspx',
-	'tournaments'               : '/Community/Tournaments/Tournament.aspx',
-	'tournamentsGeneric'        : '/Community/Tournaments/',
-	'tournamentsOverview'       : '/Community/Tournaments/(Default.aspx|?|$)',
-	'tournamentsGroups'         : '/Community/Tournaments/Groups.aspx',
-	'tournamentsFixtures'       : '/Community/Tournaments/Fixtures.aspx',
-	'tournamentsPlayerStatuses' : '/Community/Tournaments/PlayerStatuses.aspx',
-	'tournamentsCreate'         : '/Community/Tournaments/CreateTournament.aspx',
+	'tournaments'               : '/Club/ArenaHub/Tournaments/Tournament.aspx',
+	'tournamentsGeneric'        : '/Club/ArenaHub/Tournaments/',
+	'tournamentsOverview'       : '/Club/ArenaHub/Tournaments/(Default.aspx|?|$)',
+	'tournamentsGroups'         : '/Club/ArenaHub/Tournaments/Groups.aspx',
+	'tournamentsFixtures'       : '/Club/ArenaHub/Tournaments/Fixtures.aspx',
+	'tournamentsPlayerStatuses' : '/Club/ArenaHub/Tournaments/PlayerStatuses.aspx',
+	'tournamentsCreate'         : '/Club/ArenaHub/Tournaments/CreateTournament.aspx',
 
 	                              // perhaps not identical to 'tournaments'
-	'tournamentsHistory'        : '/Community/Tournaments/TournamentHistory.aspx',
+	'tournamentsHistory'        : '/Club/ArenaHub/Tournaments/TournamentHistory.aspx',
 
 	'ladders'                   : '/World/Ladders/Ladder.aspx',
 	'world'                     : '/World/(Default.aspx|?|$)',

@@ -13,7 +13,7 @@ Foxtrick.modules.ShowLineupSet = {
 	MODULE_CATEGORY: Foxtrick.moduleCategories.INFORMATION_AGGREGATION,
 	PAGES: [
 		'series', 'youthSeries',
-		'tournaments', 'tournamentsHistory', 'ladders',
+		'tournaments', 'tournamentsFixtures', 'tournamentsHistory', 'ladders',
 		'oldSeries', 'marathon', 'seriesHistoryNew',
 		'topScorers',
 	],
@@ -149,6 +149,9 @@ Foxtrick.modules.ShowLineupSet = {
 					continue; // not a valid fixture/result row
 
 				let link = row.querySelector('a');
+				if (!link)
+					continue; // round header row (e.g. tournament fixtures)
+
 				let teams = splitMatchLink(link);
 				let [home, away] = teams;
 

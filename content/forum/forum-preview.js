@@ -97,7 +97,7 @@ Foxtrick.modules.ForumPreview = {
 					"<a href='/World/Series/YouthSeries.aspx?YouthLeagueId=$1' " +
 						"target='_blank'>($1)</a>"],
 				[/\[tournamentid=(\d+)\]/gi,
-					"<a href='/Community/Tournaments/Tournament.aspx?tournamentId=$1' " +
+					"<a href='/Club/ArenaHub/Tournaments/Tournament.aspx?tournamentId=$1' " +
 						"target='_blank'>($1)</a>"],
 				[/\[link=(.*?)\]/gi,
 					"<a href='$1' target='_blank' rel='noopener'>($1)</a>"],

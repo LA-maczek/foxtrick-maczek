@@ -247,9 +247,10 @@ Foxtrick.modules.SeriesFlags = {
 			let links = mainWrapper.querySelectorAll('a');
 
 			let teamLinks = Foxtrick.filter(function(n) {
-				return !/matchId=/i.test(n.href) && /teamId=/i.test(n.href) &&
+				let cell = n.closest('td') || n.parentElement;
+				return /\/Club\/\?TeamID=\d+/i.test(n.href) &&
 					!Foxtrick.hasClass(n, 'ft-popup-list-link') && // link in .boxHead
-					!/Tournaments/i.test(n.href);
+					!cell.querySelector('a.flag:not(.ft-flag)'); // HT flag already shown
 			}, links);
 
 			modifyTeamLinks(teamLinks);

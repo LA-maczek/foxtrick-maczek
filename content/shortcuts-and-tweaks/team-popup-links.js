@@ -101,7 +101,7 @@ Foxtrick.modules['TeamPopupLinks'] = {
 			linkByUser: '/Club/Manager/?userId=[userid]&redir_to_youthmatches=true',
 		},
 		Tournaments: {
-			linkByTeam: '/Community/Tournaments/?teamId=[teamid]',
+			linkByTeam: '/Club/ArenaHub/Tournaments/?teamId=[teamid]',
 			linkByUser: '/Club/Manager/?userId=[userid]&redir_to_tournaments=true',
 		},
 	},

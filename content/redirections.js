@@ -67,7 +67,7 @@ Foxtrick.modules['Redirections'] = {
 				case 'series': url = '/World/Series/?LeagueLevelUnitID=' + seriesId; break;
 				case 'team': url = '/Club/?TeamID=' + teamId; break;
 				case 'teamhistory': url = '/Club/History/?teamId=' + teamId; break;
-				case 'tournaments': url = '/Community/Tournaments/?teamId=' + teamId; break;
+				case 'tournaments': url = '/Club/ArenaHub/Tournaments/?teamId=' + teamId; break;
 
 				case 'achievements':
 					url = '/Club/Achievements/?userID=' + userId + '&teamId=' + teamId;
