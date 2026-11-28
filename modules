@@ -25,6 +25,7 @@ forum/ht-thread-marker.js
 forum/mark-all-as-read.js
 forum/show-forum-pref-button.js
 forum/staff-marker.js
+information-aggregation/chat-enhancements.js
 information-aggregation/cross-table.js
 information-aggregation/current-transfers.js
 information-aggregation/election-table.js

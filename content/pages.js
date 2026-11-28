@@ -195,6 +195,8 @@ Foxtrick.htPages = {
 
 	                              // perhaps not identical to 'tournaments'
 	'tournamentsHistory'        : '/Community/Tournaments/TournamentHistory.aspx',
+	'arenaHubTournament'        : '/Club/ArenaHub/Tournaments/Tournament.aspx',
+	'supporterWeekTrophy'       : '/Club/ArenaHub/Tournaments/SupporterWeekTrophy.aspx',
 
 	'ladders'                   : '/World/Ladders/Ladder.aspx',
 	'world'                     : '/World/(Default.aspx|?|$)',

@@ -33,6 +33,14 @@ module.AddPromotionReminder.enabled
 module.AttVsDef.enabled
 module.AttVsDef.value
 module.BookmarkAdjust.enabled
+module.ChatEnhancements.TeamNameTooltip.enabled
+module.ChatEnhancements.TeamNameTooltipFederation.enabled
+module.ChatEnhancements.TeamNameTooltipLeague.enabled
+module.ChatEnhancements.TeamNameTooltipMatch.enabled
+module.ChatEnhancements.TeamNameTooltipNationalTeam.enabled
+module.ChatEnhancements.TeamNameTooltipSupporterWeekTrophy.enabled
+module.ChatEnhancements.TeamNameTooltipTournament.enabled
+module.ChatEnhancements.enabled
 module.ConfirmActions.Bid.enabled
 module.ConfirmActions.NtChange.enabled
 module.ConfirmActions.TransferList.enabled
